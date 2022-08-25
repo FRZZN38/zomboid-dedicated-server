@@ -60,3 +60,5 @@ services:
     volumes:
       - ./ZomboidDedicatedServer:/home/steam/ZomboidDedicatedServer
       - ./ZomboidConfig:/home/steam/Zomboid/
+      - "/etc/timezone:/etc/timezone:ro" 
+      - "/etc/localtime:/etc/localtime:ro"
